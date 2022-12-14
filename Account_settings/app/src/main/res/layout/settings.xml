@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b7e2df"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300px"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Settings"
+            android:textAlignment="center"
+            android:textSize="110px"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#DDDDDD">
+
+        <Button
+            android:id="@+id/Info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Personal information"
+            android:backgroundTint="#DDDDDD"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/ic_baseline_person_24"/>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#DDDDDD"
+        >
+
+
+        <Button
+            android:id="@+id/Move"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Change the password"
+            android:backgroundTint="#DDDDDD"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            >
+
+
+        </Button>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#DDDDDD"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="950px"
+            android:layout_height="wrap_content"
+            android:text="Language"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:drawableLeft="@drawable/ic_baseline_language_24"
+            android:layout_marginLeft="50px">
+
+        </TextView>
+
+        <Spinner
+            android:id="@+id/language"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90px">
+        </Spinner>
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
